@@ -1,0 +1,14 @@
+body{background-color: darkorange;text-align: center;font-family: Arial, Helvetica, sans-serif;}
+.square{background-color: white;text-align: center;font-family: Arial, Helvetica, sans-serif;display: flex;width: 310px;height: 370px;border-radius: 20%;padding: 70px;margin-left: 35%;margin-top: 10%;}
+@media screen and (max-width: 365px){
+    .square{
+        width: 100px;
+        height:100px;
+        margin-left: 3%;
+        display: flex;
+        text-align:justify;
+        
+        
+    }
+}
+
